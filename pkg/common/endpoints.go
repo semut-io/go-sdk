@@ -79,7 +79,7 @@ func GetEndpoints(version Version) (Endpoint, error) {
 		// Exec
 		"Exec":     "/v1/exec/exec",
 		"ExecKill": "/v1/exec/kill",
-		"ExecRun":  "/v1/exec/run",
+		"ExecRun":  "/v1/exec/exec-async",
 
 		// Images
 		"ImagesDelete": "/v1/image/delete",
