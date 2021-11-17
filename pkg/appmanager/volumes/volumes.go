@@ -74,6 +74,8 @@ type AttachRequest struct {
 	DeploymentID string `json:"deployment_id"`
 	// Worker ID to attach
 	WorkerID string `json:"worker_id"`
+	// WorkerGroup ID
+	WorkerGroupID string `json:"worker_group_id"`
 	// Volume ID to attach
 	VolumeID string `json:"volume_id"`
 	// Path to mount volume at
